@@ -1,0 +1,15 @@
+export { default as Home} from "./Home";
+export { default as Abouts} from "./Abouts";
+export {default as Login} from "./Login";
+export {default as Register} from "./Register";
+export {default as PasswordReset} from "./PasswordReset"; 
+export {default as Subjects} from "./Subjects";
+export {default as Topics} from "./Topics";
+export {default as WishList} from "./WishList";
+export {default as Quizzes} from "./Quizzes";
+export {default as HisQuizzes} from "./HisQuizzes";
+export {default as Profile} from "./Profile";
+export {default as Transcript} from "./Transcript";
+export {default as SubjectDetail} from "./SubjectDetail";
+export {default as TopicDetail} from "./TopicDetail";
+export {default as UpdateProfile} from "./UpdateProfile";

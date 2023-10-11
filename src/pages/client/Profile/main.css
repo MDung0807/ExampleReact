@@ -1,0 +1,55 @@
+.profile{
+    display: block;
+    justify-content: center;
+    padding: 0 200px;
+    background: linear-gradient(180deg, #ffffff, #dad0d0);
+
+}
+.listGroup{
+  background: linear-gradient(180deg, #ffffff, #c2b2b2);
+}
+.image-infor{
+    position: relative;
+    height: 700px;
+}
+
+.image-cover{
+    position: relative;
+  height: 500px;
+  overflow: hidden; /* This hides any content that overflows the parent */
+}
+
+.image-cover img{
+    position: absolute;
+    width: 100%; /* Set the image width to the full width of the parent */
+    height: auto; /* This allows the image to maintain its aspect ratio when resizing */
+    top: 100%; /* Vertically center the image */
+    left: 50%; /* Horizontally center the image */
+    transform: translate(-50%, -50%); /* Move the image back by half of its size to center it */
+    max-width: none; /* Disable the default max-width behavior */
+}
+
+
+.body{
+    position: relative;
+}
+.avatar {
+    position: absolute;
+    top: 65%;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%; /* Makes the container circular */
+    overflow: hidden; /* Hides any content that overflows the circular container */
+  }
+
+  .avatar img {
+    width: 100%; /* Makes the image fill the circular container */
+    height: 100%; /* Makes the image fill the circular container */
+    object-fit: cover; /* Scales the image to cover the container */
+  }
+
+
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
